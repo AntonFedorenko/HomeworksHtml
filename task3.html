@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOrms</title>
+</head>
+<body>
+    <form name="first" action="/" enctype="multipart/form-data" method="post">
+        <aside>Name</aside>
+        <input type="text" name="Name"><br/>
+        <aside>Email</aside>
+        <input type="email"><br/>
+
+        <aside>Sex</aside>
+        <input type="radio" name="sex" value="male">Male
+        <input type="radio" name="sex" value="female">Female<br/>
+
+        <aside>Current status</aside>
+        <input type="checkbox" name="student">Student<br/>
+        <input type="checkbox" name="status">Unemployed<br/>
+        <input type="checkbox" name="status">Employed <br/>
+
+        <p>Month and day of birth</p>
+        <input type="month">
+        <p>Month and day of birth</p>
+        <select name="year" >
+            <option value="one">2001</option>
+            <option value="two">2002</option>
+            <option value="three">2003</option>
+        </select>
+        <select name="month" >
+            <option value="one">Ноябрь</option>
+            <option value="two">Декабрь</option>
+            <option value="three">Январь</option>
+        </select>
+
+
+        <p>Skills and Technologies</p>
+        <textarea name="one" rows="10" readonly="readonly">
+Tech skills
+  Html
+  Css
+  JavaScript
+  Git
+Soft skills
+  Time management
+  Proactivity
+  Teamwork
+  Leadership</textarea>
+        <p>Skills and Technologies</p>
+        <select >
+            <optgroup label="Tech skills">
+                <option value="Html">Html</option>
+                <option value="Css">Css</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Git">Git</option>
+            </optgroup>
+            <optgroup label="Soft skills">
+                <option value="Time management">Time management</option>
+                <option value="Proactivity">Proactivity</option>
+                <option value="Teamwork">Teamwork</option>
+                <option value="Leadership">Leadership</option>
+            </optgroup>
+        </select>
+
+        <aside>Skills and Technologies</aside>
+        <table >
+            <tr>
+                <th><b>Tech skills</b></th>
+            </tr>
+            <tr>
+                <td>Html</td>
+            </tr>
+            <tr>
+                <td>Css</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+            </tr>
+            <tr>
+                <th>Soft skills</th>
+            </tr>
+            <tr>
+                <td>Time management</td>
+            </tr>
+            <tr>
+                <td>Proactivity</td>
+            </tr>
+            <tr>
+                <td>Leadership</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        
+        <aside><b>Photo</b></aside>
+        <input type="file" multiple="multiple">
+            <input type="submit" value="Send"><br>
+
+        <aside>Comments</aside>
+        <textarea name="text" id="" cols="20" rows="5"></textarea>
+        <p><input type="submit" value="Send"></p>
+
+      </form>
+</body>
+</html>
